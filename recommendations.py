@@ -3,10 +3,10 @@ import streamlit as st
 st.markdown("""
     <style>
         .stApp {
-            background-color: #F3C623;
+            background-color: #ece9f7;
         }
         .stApp {
-            background-color: #F3C623;
+           background-color: #fff7e6;
             border-radius: 12px;
             padding: 2em;
         }
