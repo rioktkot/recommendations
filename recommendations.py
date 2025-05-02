@@ -13,7 +13,7 @@ programming = "programming"
 
 # Collect user attributes to inform our recommendation.
 grade = int(st.selectbox("What grade are you in? ",[1,2,3,4,5,6,7,8,9,10,11]))
-favorite_subject = (st.selectbox("What is your favorite subject? ",["art","computer scienece","math","chess"]))
+favorite_subject = (st.selectbox("What is your favorite subject? ",["art","computer science","math","chess"]))
 hobby = (st.selectbox("what is your favourite hobby? ",["sport","games","art"]))
 
 # Make a course recommendation based on the user's attributes.
@@ -35,4 +35,4 @@ else:
                rec = rec + ", " + fin_lit
                     
 if st.button("Get My Recommendation!"):
-    st.markdown(f"### We recommend the Khan Academy course:\n**{recommendation}**")
+    st.markdown(f"### We recommend the Khan Academy course:\n**{rec}**")
