@@ -1,5 +1,22 @@
 import streamlit as st
 
+st.markdown("""
+    <style>
+        body {
+            background-color: #ece9f7;
+        }
+        .main {
+            background-color: #fff7e6;
+            border-radius: 12px;
+            padding: 2em;
+        }
+        h1, h2, h3 {
+            color: #7d3c98;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+
 st.title("Corse recommendator")
 st.write("""Recommends a Khan Academy course based on grade and subject preferences.""")
 
