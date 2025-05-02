@@ -6,7 +6,7 @@ st.markdown("""
             background-color: #ece9f7;
         }
         .main {
-            background-color: #fff7e6;
+            background-color: #F3C623;
             border-radius: 12px;
             padding: 2em;
         }
