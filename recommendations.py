@@ -1,0 +1,39 @@
+import streamlit as st
+"""Recommends a Khan Academy course based on grade and subject preferences."""
+
+# Course options to choose from for our recommendation.
+fin_lit = "Financial Literacy"
+pixar = "Pixar in a Box"
+grammar = "Grammar"
+chess = "Chess school"
+art = "artists courses"
+football = "football academy"
+programming = "programming"
+
+
+# Collect user attributes to inform our recommendation.
+grade = int(selectbox("What grade are you in? ",[1,2,3,4,5,6,7,8,9,10,11]))
+favorite_subject = input("What is your favorite subject? ")
+favorite_subject = (selectbox("What is your favorite subject? ",["art","computer scienece","math","chess"]))
+hobby = (selectbox("what is your favourite hobby? ",["sport","games","art"]))
+
+# Make a course recommendation based on the user's attributes.
+rec = ""
+if hobby == "sport":
+    rec = football
+if grade < 4:
+    rec = rec + ", " + grammar
+else:
+    if favorite_subject == "art":
+        rec = rec + ", " + art + ", " + pixar
+    else:
+        if favorite_subject == "computer science" or favorite_subject == "math":
+            rec = rec + ", " + pixar + ", " + programming
+        else:
+            if favorite_subject == "chess":
+                rec = rec + ", " + chess
+            else:
+               rec = rec + ", " + fin_lit
+                    
+if st.button("Get My Recommendation!"):
+    st.markdown(f"### We recommend the Khan Academy course:\n**{recommendation}**")
