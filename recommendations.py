@@ -5,7 +5,7 @@ st.markdown("""
         .stApp {
             background-color: #F3C623;
         }
-        .main {
+        .stApp {
             background-color: #F3C623;
             border-radius: 12px;
             padding: 2em;
