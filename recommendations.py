@@ -12,10 +12,9 @@ programming = "programming"
 
 
 # Collect user attributes to inform our recommendation.
-grade = int(selectbox("What grade are you in? ",[1,2,3,4,5,6,7,8,9,10,11]))
-favorite_subject = input("What is your favorite subject? ")
-favorite_subject = (selectbox("What is your favorite subject? ",["art","computer scienece","math","chess"]))
-hobby = (selectbox("what is your favourite hobby? ",["sport","games","art"]))
+grade = int(st.selectbox("What grade are you in? ",[1,2,3,4,5,6,7,8,9,10,11]))
+favorite_subject = (st.selectbox("What is your favorite subject? ",["art","computer scienece","math","chess"]))
+hobby = (st.selectbox("what is your favourite hobby? ",["sport","games","art"]))
 
 # Make a course recommendation based on the user's attributes.
 rec = ""
