@@ -1,7 +1,8 @@
 import streamlit as st
-"""Recommends a Khan Academy course based on grade and subject preferences."""
 
 st.title("Corse recommendator")
+st.write("""Recommends a Khan Academy course based on grade and subject preferences.""")
+
 
 # Course options to choose from for our recommendation.
 fin_lit = "Financial Literacy"
