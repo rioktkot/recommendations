@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown("""
     <style>
-        body {
+        .stApp {
             background-color: #F3C623;
         }
         .main {
