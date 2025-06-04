@@ -1,12 +1,12 @@
 import streamlit as st
 
-st.markdown(
+st.markdown("""
     <style>
     h1{
         color: red;
     }
     </style>
-, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 st.set_page_config(page_title="Куда поехать?", page_icon="🌍")
 
