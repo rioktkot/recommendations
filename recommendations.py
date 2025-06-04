@@ -7,7 +7,7 @@ st.title(" Путеводитель по странам")
 st.markdown("""
     <style>
     body {
-        background-color: #f0f2f6;
+        background-color: red;
         padding: 20px;
         border-radius: 10px;
     }
