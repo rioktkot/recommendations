@@ -17,6 +17,9 @@ st.markdown(
     .stRadio > div {
         gap: 1rem;
     }
+    h1{
+        color: red;
+    }
     </style>
 , unsafe_allow_html=True)
 
