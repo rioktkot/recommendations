@@ -7,13 +7,13 @@ st.title(" Путеводитель по странам")
 st.markdown("""
     <style>
   .stMain {
-        background-color: #74512D;
+        background-color: ;
         padding: 20px;
         border-radius: 10px;
     }
     .stButton > button {
         background-color:;
-        color: white;
+        color:;
         border-radius: 8px;
         padding: 10px 20px;
         font-size: 16px;
