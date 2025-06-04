@@ -2,21 +2,6 @@ import streamlit as st
 
 st.markdown(
     <style>
-    .main {
-        background-color: #f0f2f6;
-        padding: 20px;
-        border-radius: 10px;
-    }
-    .stButton > button {
-        background-color: #4CAF50;
-        color: white;
-        border-radius: 8px;
-        padding: 10px 20px;
-        font-size: 16px;
-    }
-    .stRadio > div {
-        gap: 1rem;
-    }
     h1{
         color: red;
     }
