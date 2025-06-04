@@ -4,7 +4,7 @@ st.set_page_config(page_title="Куда поехать?", page_icon="🌍")
 
 st.title(" Путеводитель по странам")
 
-st.markdown("""
+"""st.markdown("""
     <style>
   .stMain {
         background-color: red;
@@ -22,7 +22,7 @@ st.markdown("""
         gap: 1rem;
     }
     </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)"""
 
 
 # Инициализируем состояние
