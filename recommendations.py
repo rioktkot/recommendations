@@ -1,5 +1,25 @@
 import streamlit as st
 
+st.markdown(
+    <style>
+    .main {
+        background-color: #f0f2f6;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .stButton > button {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .stRadio > div {
+        gap: 1rem;
+    }
+    </style>
+, unsafe_allow_html=True)
+
 st.set_page_config(page_title="Куда поехать?", page_icon="🌍")
 
 st.title(" Путеводитель по странам")
