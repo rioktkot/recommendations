@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Куда поехать?", page_icon="🌍")
 
-st.title("🌍 Путеводитель по странам")
+st.title(" Путеводитель по странам")
 
 # Инициализируем состояние
 if 'step' not in st.session_state:
@@ -70,6 +70,6 @@ elif st.session_state.step == 3:
 
 # Страница результата
 elif st.session_state.step == 4:
-    st.subheader("🌟 Ваш выбор:")
+    st.subheader(" Ваш выбор:")
     st.success(st.session_state.result)
     st.button("Начать заново", on_click=reset)
